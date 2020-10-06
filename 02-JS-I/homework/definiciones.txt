@@ -1,0 +1,14 @@
+Variables: Sirven para guardar algo, es decir una informacion que vayamos a usar despues.
+
+
+Strings: Es una informacion o un valor que le queremos dar a nuestra variable, la informacion de nuestra variable por asi decirlo y solo se da en palabras mas no en numeros.
+
+
+Funciones (argumentos, return): Las funciones agrupan datos para que luego los podamos usar, los argumentos son las variables de las funciones que nos ayudaran a cumplir nuestras tareas y return es una de esas variables, lo que hace es devolver lo que nosotros le digamos que nos de, por ejemplo, le podemos decir que nos devuelva el resultado de una suma.
+
+
+Declaraciones if: las declaraciones IF son condicionales que nos daran un resultado dependiendo de la condicion que le apliquemos es decir, si la funcion se cumple segun lo que acordamos en el argumento entonces sera true y nos dara el resultado para true de lo contrario sera false y nos dara el resultado para false.
+
+
+Valores booleanos true, false: son situaciones que definiran nuestros resultados, es decir si una situacion se cumple como verdadera nos dara cierto resultado e igualmente si la situacion es falsa.
+
