@@ -1,0 +1,7 @@
+For: es complicado explicarselo a un "niño de 12 años"  pero en pocas palabras nos ayuda a hacer tareas que se supone deberian ser repetitivas de una forma semi automatica, podemos usar for para que nos ayude a hacer cuentas, listas. operaciones y demas cosas que aun no me han enseñado, solo diciendole que queremos y en que forma lo queremos, ya luego solo lo "llamamos" y nos dara lo que le dijimos que necesitabamos, eso nos ahorra tener que hacer lo mismo una y otra vez.
+
+&&: se lee como "and" o "y", nos sirve para hacer comparativas sobre si algo sera Verdadero o Falso, forzando las diferencias a ser false y las igualdades quedan iguales, si es true y true el resultado sera true, si es false y false el resultado sera false.
+||: se lee como "or" o "o", al igual que el anterior nos sirve para hacer comparativas sobre si algo es true o false, su diferencia esta en que en vez de forzar las diferencias a false, las pasa a true y las igualdades las deja igual que "and".
+!: se lee como "not" o "no", sirve para negar valores, es decir si algo es falso con not sera verdadero, y true pasara a ser false.
+
+PD: tal vez no lean los comentarios que he dejado en los JS previos, es decir el 02 y el 03, pero seria genial que pudieramos ingresar las respuestas de los JS en varias opciones, considero que hay mas de una opcion de respuesta valida, aunque solo es mi opinion  y no una critica, un saludo al equipo de Henry.
