@@ -1,0 +1,9 @@
+-Objetos: los objetos nos ayudan a guardar caracteristicas por asi decirlo de algun elemento que ya tengamos.
+
+ -Propiedades: son las caracteristicas que declaramos sobre un objeto.
+
+ -Métodos: los metodos son las funciones de nuestros objetos.
+
+ -Bucle for…in: es el bucle especialmente designado para trabajar en los objetos, nos ayudara a acceder a la informacion que tengamos con una palabra clave.
+
+-Notación de puntos vs notación de corchetes: ambas nos ayudar a acceder a las funciones o propiedades de un objeto, pero depende del nombre de la propiedad a llamar, ya que la notacion de puntos no nos deja llamar propiedades con espacios o caracteres especiales.
