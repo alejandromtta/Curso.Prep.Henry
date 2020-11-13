@@ -1,0 +1,1 @@
+Funciones Callback: son funciones que usan como argumento a otras funciones, tambien conocidas como funciones de orden superior.
