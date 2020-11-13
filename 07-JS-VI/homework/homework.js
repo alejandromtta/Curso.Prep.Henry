@@ -26,7 +26,9 @@ function map(array, cb) {
   // Crea un nuevo array
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
-
+let nuevaar = [];
+nuevaar = array.map((uwu) => cb(uwu));
+return nuevaar;
 }
 
 // No modificar nada debajo de esta línea
