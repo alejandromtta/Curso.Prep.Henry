@@ -8,18 +8,19 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-class usuario  {
-    constructor(usuario,nombre,email,password){
-      this.usuario = usuario;
-      this.nombre = nombre;
-      this.email = email;
-      this.password = password;
-    }
-    saludar(){
-      return 'hola mi nombre es' + this.nombre;
-    }
+  function Usuario(opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password;
   }
-return usuario;
+
+  Usuario.prototype.saludar = function() {
+    return 'Hola, mi nombre es ' + this.nombre;
+  };
+
+  return Usuario;
+
 }
 
 function agregarMetodoPrototype(Constructor) {
@@ -27,7 +28,7 @@ function agregarMetodoPrototype(Constructor) {
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
   Constructor.prototype.saludar = function () {
-    console.log("Hello Wordl!");
+    return "Hello World!";
   }
 
 }
@@ -38,13 +39,13 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-String.prototype.reverse = function(){
-  let stringinv = "";
-  for (let i = this.length -1; i>=0; i--){
-    stringinv = stringinv + this.charAt[i];
-  }
-  return stringinv;
-}
+  String.prototype.reverse = function() {
+    var stringInvertida = '';
+    for(var i = this.length - 1; i>=0; i--) {
+      stringInvertida = stringInvertida + this.charAt(i);
+    }
+    return stringInvertida;
+  };
 }
 
 // No modificar nada debajo de esta línea
