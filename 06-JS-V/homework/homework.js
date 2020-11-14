@@ -8,15 +8,15 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-class usuario = {
+class usuario  {
     constructor(usuario,nombre,email,password){
       this.usuario = usuario;
       this.nombre = nombre;
       this.email = email;
       this.password = password;
-    },
+    }
     saludar(){
-      return hola mi nombre es this.nombre;
+      return 'hola mi nombre es' + this.nombre;
     }
   }
 return usuario;
@@ -26,7 +26,7 @@ function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
-  constructor.prototype.saludar = function () {
+  Constructor.prototype.saludar = function () {
     console.log("Hello Wordl!");
   }
 
@@ -41,7 +41,7 @@ function agregarStringInvertida() {
 String.prototype.reverse = function(){
   let stringinv = "";
   for (let i = this.length -1; i>=0; i--){
-    stringinv = stringinv + this.[i];
+    stringinv = stringinv + this.charAt[i];
   }
   return stringinv;
 }
